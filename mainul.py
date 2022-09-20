@@ -109,10 +109,10 @@ def menu():
     print ''
     psb('\x1b[1;94m--------------------------------------------------')
     
-    psb('\x1b[1;92mAnuthor : MAINUL ISLAM')
-    psb('\x1b[1;92mGitHub : M41NUL')
+    psb('\x1b[1;92mAnuthor  : MAINUL ISLAM')
+    psb('\x1b[1;92mGitHub   : M41NUL')
     psb('\x1b[1;92mFacebook : MD MAINUL ISLAM')
-    psb('\x1b[1;92mYouTube : Technical Mainul')
+    psb('\x1b[1;92mYouTube  : Technical Mainul')
     psb('\x1b[1;92mWhatApps : +8801308850528')
     
     psb('\x1b[1;94m--------------------------------------------------')
