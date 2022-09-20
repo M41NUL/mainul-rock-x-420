@@ -107,15 +107,16 @@ def menu():
     os.system('clear')
     print logo
     print ''
-    psb('\033[1;36m--------------------------------------------------')
-    print ''
-    psb('\x1b[1;92mAUTHOR  : MAINUL')
-    psb('\x1b[1;92GITHUB  : github.com/MAINUL')
-    psb('\x1b[1;92FACEBOOK : MD MAINUL ISLAM')
+    psb('\x1b[1;94m--------------------------------------------------')
+    
+    psb('\x1b[1;92mAnuthor : MAINUL ISLAM')
+    psb('\x1b[1;92mGitHub : M41NUL')
+    psb('\x1b[1;92mFacebook : MD MAINUL ISLAM')
     psb('\x1b[1;92mYouTube : Technical Mainul')
     psb('\x1b[1;92mWhatApps : +8801308850528')
-    print ''
-    psb('\033[1;36m--------------------------------------------------')
+    
+    psb('\x1b[1;94m--------------------------------------------------')
+	
     
     print
     psb('\x1b[1;94m--------------------------------------------------')
